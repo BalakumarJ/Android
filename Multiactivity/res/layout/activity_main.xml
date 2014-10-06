@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+         android:id="@+id/button1"
+        android:layout_width="188dip"
+        android:layout_height="100dip"
+        android:onClick="sendMessage"
+        android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+        android:text="Switch" />
+ 
+  </RelativeLayout>
